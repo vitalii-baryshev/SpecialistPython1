@@ -5,7 +5,13 @@
 # Исходные данные:
 fruits = ["яблоко", "банан", "киви", "арбуз"]
 
-# TODO: your code here
+# Исходные данные:
+fruits = ["яблоко", "банан", "киви", "арбуз"]
+i = 1
+max_string = max(fruits, key=len)
+for fruit in fruits:
+   print (str(i)+"." + " "*(len(max_string) - len(fruit)) + fruit)
+   i += 1
 
 # Пример вывода:
 # 1. яблоко
